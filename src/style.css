@@ -1,0 +1,93 @@
+/* General container styling */
+body{
+  background-color: #ffffff;
+}
+.container {
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 135);
+  }
+  
+  /* Typography styling */
+  h1 {
+    color: #050505;
+    margin-bottom: 24px;
+  }
+  
+  /* Search bar and sort dropdown section */
+  .search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 16px;
+  }
+  
+  .search-bar {
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  .sort-dropdown {
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+  
+  /* User cards grid */
+  .user-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  
+  /* Individual user card */
+  .user-card {
+    background: rgb(184, 223, 247);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    padding: 16px;
+    cursor: pointer;
+    flex-basis: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Typography within cards */
+  .user-card h6 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .user-card p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: black;
+  }
+  
+  /* Responsive design */
+  @media (min-width: 600px) {
+    .user-card {
+      flex-basis: 48%;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .user-card {
+      flex-basis: 30%;
+    }
+  }
+  

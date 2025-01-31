@@ -1,3 +1,6 @@
+Deployment on netify app
+https://678cfc2cadd4cc098ecc3c61--userinfo-api-call.netlify.app/
+
 Development Process
 
 Home Page Setup:
